@@ -34,7 +34,7 @@ int main(){
 using namespace std;
 
 int main() {
-    int n, first = 0, second = 1, count = 0, fibo;
+    int n, first = 0, second = 1, count = 1, fibo;
 
     cout << "Enter an integer: ";
     cin >> n;
@@ -44,7 +44,7 @@ int main() {
     if (n >= 1) cout << first << " ";
     if (n >= 2) cout << second << " ";
 
-    for (count = 2; count < n; count++) {
+    for (count = 3; count <= n; count++) {
         fibo = first + second;
         cout << fibo << " ";
         first = second;
