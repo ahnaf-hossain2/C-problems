@@ -1,3 +1,10 @@
+/*Find the Fibonacci series of N terms.
+  Sample Output:
+  Your input is: 9
+  Fibonacci Series: 0 1 1 2 3 5 8 13 21
+  Department
+/*
+	
 #include<iostream>
 #include<cmath>
 using namespace std;
